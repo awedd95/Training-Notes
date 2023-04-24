@@ -61,3 +61,33 @@ consent should generally be avoided as it may prevent some users from being able
 Appropriate names and descriptions for the requested permissions should be provided to help users and 
 admins understand what access they are agreeing to.
 
+## Identity Topology Options
+
+### Consumers
+
+Consumers are Microsoft accounts that are created for personal use. These consist of an email address and a password 
+that is used to sign in to Microsoft services and products.
+
+### Enterprises
+
+Enterprises refers to Azure AD accounts. These provide further security and access control measures than consumer 
+accounts do.
+
+### Business to Business (B2B)
+
+AAD business to business allows for secure collaboration between organisations. With B2B developers do not need to 
+manage external parties login details allowing users to use their own details for their organisation. Accounts 
+also do not need to be synced between your application and AAD. 
+
+### Business to Customer (B2C)
+
+This is a customer identity access management solution that is able to have millions of users who can authenticate 
+billions of times per day helping reduce scaling issues within your application. B2C is a white-label solution 
+that allows the entire sign-up process to be customised while also allowing for minimal sign-ups. This allows 
+users to provide further information for their account over time, e.g. initially they may only need an email 
+and password but after making an order they may wish to store their postal address too.
+
+B2B is primarily for businesses that would like to share resources while B2C is for customer-facing 
+applications allowing for AAD capabilities while letting users sign in with their existing identity provider.
+
+
